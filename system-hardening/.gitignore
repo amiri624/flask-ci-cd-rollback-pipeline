@@ -1,0 +1,13 @@
+
+cat > .gitignore <<'GIT'
+# ignore backup and temp files
+*.swp
+*.tmp
+
+# ignore ssh keys if any
+ci_deploy_key
+ci_deploy_key.pub
+
+# ignore system output
+world_writable_files.txt
+GIT
