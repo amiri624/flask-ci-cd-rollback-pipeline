@@ -1,0 +1,11 @@
+
+cat > config/sshd_config.sample <<'CFG'
+# Sample sshd_config for reference
+Port 22
+Protocol 2
+PermitRootLogin no
+PasswordAuthentication yes
+PermitEmptyPasswords no
+ChallengeResponseAuthentication no
+UsePAM yes
+CFG
